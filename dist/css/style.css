@@ -2,9 +2,20 @@ section {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-.hero-box .box img {
+
+.hero-box .box p {
   width: 500px;
 }
 hero-box .box img {
-  width: 400px;
+  width: 300px;
+}
+
+@media (max-width: 992px) {
+  .hero-box .box p {
+    font-size: 14px;
+    width: 300px;
+  }
+  .hero-box .box img {
+    width: 300px;
+  }
 }
